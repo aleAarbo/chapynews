@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Periódico Digital - Ysapy</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="text-white text-center py-4" style="background: linear-gradient(to right, #A2C2E3, #D6AEDD, #FAD0C4); width: 100%; min-height: 250px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+    <header class="text-white text-center py-4" style="background: url('./img/logo.png') center/cover no-repeat; width: 100%; min-height: 250px; 
+    display: flex; flex-direction: column; align-items: flex-start; align-items: center; justify-content:left; padding-left: 20px;">
+    </header>
+
+    <!--Encabezado Períodico Digital-->
+    <header class="text-white text-center py-4">
+        <h1 style="background: rgba(0, 0, 0, 0.5); display: inline-block; justify-content: left; padding: 10px 20px; border-radius: 10px;">
+            📰 Periódico Digital - Noticias Principales de Abril
+        </h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a href="#noticias" class="nav-link text-dark">Noticias</a></li>
+                        <li class="nav-item"><a href="#voxpopuli" class="nav-link text-dark">Vox Populi</a></li>
+                        <li class="nav-item"><a href="#giovanni" class="nav-link text-dark">Matemática 3° EMS - 7°, 8° y 9° EBI 2025</a></li>
+                        <li class="nav-item"><a href="#filosofia" class="nav-link text-dark">Filosofía</a></li>
+                        <li class="nav-item"><a href="#multimedia" class="nav-link text-dark">Multimedia</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+    </header>
+
+    <!--Noticia-->
+    <section id="noticias" class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="card-title">
+                    <img src="img/noticia.jpg" class="img-thumbnail" alt="Icono Noticia" style="width: 50px; height: 50px;"> 
+                    Chapicuy: Historia y Vida de un Pueblo con Identidad Propia
+                </h2>
+                <div class="card shadow">
+                    <div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/chapi1.jpg" class="d-block w-100" alt="Noticia 1" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/chapi2.jpg" class="d-block w-100" alt="Noticia 2" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/chapia.jpg" class="d-block w-100" alt="Noticia 3" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text">
+                            Surgió en el año 1944 a partir de lo que en ese entonces se conocía como "Colonia Baltasar Brum". En este lugar existía una pequeña estación de tren denominada Chapicuy, cuyo nombre proviene del idioma guaraní y significa "gotas de rocío".
+                            <br><br>
+                            Ubicada al norte del departamento de Paysandú, Chapicuy se encuentra junto a la ruta nacional N.º 3, en el kilómetro 454. Su población alcanza los 1382 habitantes, según el censo del año 2011, y está situada a unos 86 km al norte de la capital departamental y a unos 36 km al sur de la ciudad de Salto. Desde el año 2012, Chapicuy ha alcanzado la categoría de municipio, abarcando una amplia zona con una economía basada en la ganadería, el cultivo de cítricos y la forestación. A solo 15 km al oeste se encuentra la Meseta de Artigas, un atractivo histórico y turístico de gran importancia.
+                            <br><br>
+                            El pueblo cuenta con diversos servicios e instituciones que forman parte de la vida cotidiana de sus habitantes. Dispone de una escuela, un liceo, una policlínica, estación de servicio, club, salón comunal, varios comercios pequeños y algunos complejos de Mevir.
+                            <br><br>
+                            El liceo de Chapicuy es pequeño, con menos de un centenar de estudiantes que son atendidos por más de una veintena de profesores. Muchos de estos docentes han consolidado su permanencia en la institución, generando un fuerte sentido de identidad con el pueblo y la comunidad educativa. La frase "Como el Chapi no hay" resuena entre los docentes que eligen cada año volver a ejercer en este lugar, destacando el valor de las vivencias compartidas, los recuerdos y la calidez de la comunidad. Al fin y al cabo, los liceos son la gente, y en Chapicuy esto se siente en cada rincón de su historia y su presente.
+                            </p>
+                            <footer class="blockquote-footer">Prof. Manuel Albisu</footer>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vox Populi a la derecha de Noticias -->
+            <div class="col-md-4">
+                <section id="voxpopuli" class="card p-3 shadow">
+                    <h3 class="text-center mb-3">📢 Vox Populi</h3>
+                    <blockquote class="blockquote mb-0">
+                        <h4>Corría el mes de abril...</h4>
+                        <ul>
+                            <li><strong><em>121.</em></strong> Nace el emperador romano Marco Aurelio.</li>
+                                <li><strong><em>1493.</em></strong> Los reyes españoles reciben a Cristobal Colón con todos los honores, luego de su descubrimiento del Nuevo Mundo.</li>
+                                <li><strong><em>1789.</em></strong> George Washington se transforma en el primer presidente de Estados Unidos.</li>
+                                <li><strong><em>1815.</em></strong> Nacía Otto Von Bismarck, político y diplomático alemán.</li>
+                                <li><strong><em>1861.</em></strong> Se inicia la “guerra de la secesión” en Estados Unidos.</li>
+                                <li><strong><em>1889.</em></strong> Nace Adolfo Hitler.</li>
+                                <li><strong><em>1912.</em></strong> Zarpa desde Inglaterra el transatlántico “Titanic”.</li>
+                                <li><strong><em>1917.</em></strong> Estados Unidos ingresa en la primera guerra mundial.</li>
+                                <li><strong><em>1939.</em></strong> Francisco Franco daba por finalizada la guerra civil española.</li>
+                                <li><strong><em>1055.</em></strong> Fallece Albert Einstein.</li>
+                                <li><strong><em>1968.</em></strong> Fallece asesinado Martín Luther King.</li>
+                                <li><strong><em>1973.</em></strong> Fallece Pablo Picasso</li>
+                                <li><strong><em>1982.</em></strong> Estalla la guerra de las Malvinas entre Argentina y Gran Bretaña.</li>
+                                <li><strong><em>2005.</em></strong> Fallece Juan Pablo II</li>
+                        </ul>
+                        <footer class="blockquote-footer">Prof. Manuel Albisu</footer>
+                    </blockquote>
+                </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticia segunda-->
+    <section id="noticias" class="container my-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="card-title">
+                    <img src="img/noticia.jpg" class="img-thumbnail" alt="Icono Noticia" style="width: 50px; height: 50px;"> 
+                    Educación tierra adentro: una elección de vida
+                </h2>
+                <div class="card shadow">
+                    <div id="carouselNoticias" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/chapi1.jpg" class="d-block w-100" alt="Noticia 1" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/chapi2.jpg" class="d-block w-100" alt="Noticia 2" style="height: 400px; object-fit: cover;">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/chapia.jpg" class="d-block w-100" alt="Noticia 3" style="height: 400px; object-fit: cover;">
+                            </div>
+                        </div>
+                        <!-- botones -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselNoticias" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselNoticias" data-bs-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                    </div>
+                    <!-- Texto Noticia -->
+                    <div class="card-body">
+                        <p class="card-text">
+                        El inicio de la carrera docente suele estar marcado por la circunstancia. Cuando un profesor comienza a trabajar y llega el momento de elegir horas, es común que, salvo excepciones, termine desempeñándose en el medio rural. Con el tiempo, y a medida que surgen nuevas oportunidades, muchos optan por trasladarse a pueblos más cercanos a la ciudad capital del departamento, hasta finalmente asentarse en liceos urbanos de su localidad.
+                        <br><br>
+                        Sin embargo, en algunos casos, más allá del rol que desempeñen —docente, adscripto, director o secretario—, hay quienes deciden quedarse en el medio rural. No por obligación, sino por elección. Allí encuentran un ambiente distinto, una comunidad educativa que se forma de manera natural y un sentido de pertenencia que, en la ciudad, a menudo se diluye.
+                        <br><br>
+                        Los liceos rurales ofrecen una dinámica particular. Viajar al amanecer, compartir mates y largas jornadas con colegas, establecer lazos con estudiantes y familias del entorno; todo esto genera un clima de trabajo que convierte lo cotidiano en algo más ameno. Las esperas entre clases —las llamadas "horas puente"— lejos de ser tediosas, se transforman en espacios de aprendizaje y camaradería. La interacción no se limita al ámbito escolar: el panadero, el almacenero o el vecino con el que se cruza en una calle polvorienta también forman parte de la experiencia.
+                        <br><br>
+                        Con el tiempo, el apego crece y uno se queda, aun cuando los colegas "citadinos" no comprendan la elección. ¿Por qué viajar en las luminosas mañanas de verano o en las frías madrugadas invernales? A muchos les parece un sacrificio innecesario. Pero para quienes eligen esta vida, el precio que se paga es mínimo en comparación con la tranquilidad de trabajar en un entorno armonioso, rodeado de buena gente.
+                        <br><br>
+                        Porque la ruralidad no es salir de la zona de confort, sino encontrarla.
+                        </p>
+                        <footer class="blockquote-footer">Prof. Manuel Albisu</footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Canva y Genially Matemática-->
+    <section id="contenedor" class="container my-5">
+        <h2 class="text-center mb-4">🎨 Canva & Genially</h2>
+    
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+            <!-- Canva -->
+            <div style="flex: 1; min-width: 300px; max-width: 50%;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe title="Canva - 5to AÑO CHAPICUY" frameborder="0" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                        src="https://www.canva.com/design/DAGiFczkq2o/Udgu5IaFjCNjfXRpi22QBg/view?embed" 
+                        allowfullscreen></iframe> 
+                </div> 
+            </div>
+    
+            <!-- Genially -->
+            <div style="flex: 1; min-width: 300px; max-width: 50%;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe title="Genially - 5to AÑO CHAPICUY" frameborder="0" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                        src="https://view.genially.com/67d9a989998fbb084bd8d637" 
+                        allowfullscreen></iframe> 
+                </div> 
+            </div>
+        </div>
+    </section>
+    
+    <!-- MAtemática Giovanni-->
+
+    <section id="giovanni" class="container my-5">
+        <h2 class="text-center mb-4">Matemática 3° EMS - 7°, 8° y 9° EBI 2025</h2>
+        <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 300px; max-width: 50%;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe title="Canva - 3°G EMS" frameborder="0" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                        src="https://www.canva.com/design/DAGh_zYLU3o/W1wxjKvwrEUYw_AcDMbR1Q/view?embed" 
+                        allowfullscreen></iframe> 
+                </div>
+            </br>
+            <footer>Prof. Giovanni Acuña</footer> 
+            </div>
+            <div style="flex: 1; min-width: 300px; max-width: 50%;">
+                <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+                    <iframe title="Genially - EBI Matemática" frameborder="0" 
+                        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                        src="https://view.genially.com/67d3286418df4c2f9dc9cafe/interactive-content-cooperativismo-ebi" 
+                        allowfullscreen></iframe> 
+                </div>
+            </br>
+            <footer>Prof. Giovanni Acuña</footer> 
+            </div>
+        </div>
+    </section>
+
+
+</br></br>
+
+    <!--Filosofía-->
+    <section id="filosofia" class="container my-5">
+        <div style="width: 100%;">
+            <h2 class="text-center mb-4">Filosofía 2do Educación Media Superior</h2>
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                <iframe title="2do EMS AÑO CHAPICUY" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="./filosofia/Los ciegos y el elefante - Filosofía 2do EMS.pdf" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> 
+            </div> 
+        </br>
+        <footer>Prof. Robaudo Falcon</footer>
+    </br>
+            <h2 class="text-center mb-4">Filosofía 3ro Educación Media Superior</h2>
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                <iframe title="3ro EMS AÑO CHAPICUY" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="./filosofia/Reseña de película, 3ro G Filosofía.pdf" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> 
+            </div>
+        </br>
+            <footer>Prof. Robaudo Falcon</footer> 
+        </div>
+    </section>
+
+    <!--Literatura-->
+    <section id="literatura" class="container my-5">
+        <h2 class="text-center mb-4">Sección Literaria</h2>
+        <div style="width: 100%;">
+            <h3 class="text-center mb-4">Matías Rochón. Primero EMS (2025)</h3>
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                <iframe title="EMS AÑO CHAPICUY" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="./literatura/Titán Gio - Matías Rochón.pdf" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> 
+            </div> 
+        </br>
+        <footer>Prof. Carlos Tellechea</footer>
+        </br>
+            <h3 class="text-center mb-4">Grupo Noveno EBI 2025</h3>
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                <iframe title="EMS AÑO CHAPICUY" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="./literatura/Tercero_Nada es lo.pdf" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> 
+            </div>
+        </br>
+            <footer>Prof. Carlos Tellechea</footer> 
+        </br>
+            <h3 class="text-center mb-4">Grupo Primero EMS 2025</h3>
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                <iframe title="EMS AÑO CHAPICUY" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="./literatura/Cuarto_Un amor.pdf" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> 
+            </div>
+        </br>
+        <footer>Prof. Carlos Tellechea</footer>
+        </div>
+    </section>
+
+    <!-- Multimedia -->
+    <style> 
+        .video-container {
+         display: flex;
+            justify-content: center;
+            gap: 20px; /* Espacio entre videos */
+            flex-wrap: wrap; /* Para que se adapten en pantallas pequeñas */
+        }
+    </style>
+
+    <!--Biología-->
+    <section id="biología" class="container my-5">
+        <h2 class="text-center mb-4">Biología</h2>
+        <div style="width: 100%;">
+            <h3 class="text-center mb-4">Grupo 8° EBI 2025</h3>
+            <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
+                <iframe title="8° EBI CHAPICUY" frameborder="0" width="1200px" height="675px" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+                src="./biología/Presentación educativa el arte del collage estilo collage fotográfico en beige y marrón.pdf" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> 
+            </div>
+        </br>
+        <footer>Prof. Estela Martinez</footer>
+        </div>
+    </section>
+
+    <!--Multimedia-->
+    <section id="multimedia" class="container my-5">
+        <h2 class="text-center mb-4">🎥 Multimedia</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6 text-center">
+                <iframe src="./videos/Liceo Rural de Chapicuy 2010.mp4" width="100%" height="340" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="col-md-6 text-center">
+                <iframe src="./videos/Recorriendo el Interior _ Chapicuy.mp4" width="100%" height="340" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-3 mt-5 text-white" style="background: linear-gradient(to right, #003973, #E5E5BE);">
+        <p>2025 Liceo Rural Chapicuy - Esta obra está licenciada bajo:
+            <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</a>
+        </p>
+    </footer>
+</body>
+</html>
+
+
+
